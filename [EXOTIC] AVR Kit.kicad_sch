@@ -2785,7 +2785,7 @@
     (property "Datasheet" " ~" (at 195.58 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Local Seller" "https://makerselectronics.com/product/chip-resistor-smd-330k%cf%89-%c2%b11-250mw-1206" (at 199.39 102.87 0)
+    (property "Local Seller" "https://makerselectronics.com/product/usb-connector-on-pcb-b-type-female" (at 199.39 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 69c7fa1d-da79-459a-878f-16c23cc21acd))

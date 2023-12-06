@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>F:\Documents\KiCad\7.0\projects\[EXOTIC] AVR Kit\[EXOTIC] AVR Kit.kicad_sch</source>
+    <date>30/11/2023 7:26:01 PM</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ATMEGA32A AVR Kit</title>
+        <company>Team Exotic</company>
+        <rev>C1</rev>
+        <date>2023-10-28</date>
+        <source>[EXOTIC] AVR Kit.kicad_sch</source>
+        <comment number="1" value="Author: Morad Tamer"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/">
+      <title_block>
+        <title>ATMEGA32A AVR Kit</title>
+        <company>Team Exotic</company>
+        <rev>C1</rev>
+        <date>2023-10-28</date>
+        <source>Power Management Circuitry.kicad_sch</source>
+        <comment number="1" value="Author: Morad Tamer"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22 pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-22pf-%c2%b15-50v-1206</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-22pf-%c2%b15-50v-1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="[EXOTIC] AVR Kit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7636cac2-39d9-4cc8-91d0-b6315553f36d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22 pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-22pf-%c2%b15-50v-1206</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-22pf-%c2%b15-50v-1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="[EXOTIC] AVR Kit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>949bcfe7-05a0-4f92-97de-f79b583b819e</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-50v-100nf-x7r-%c2%b110-1206</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-50v-100nf-x7r-%c2%b110-1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="[EXOTIC] AVR Kit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dab2104-f42f-4dd8-9650-495c8c1035fd</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-50v-100nf-x7r-%c2%b110-1206</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-50v-100nf-x7r-%c2%b110-1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="[EXOTIC] AVR Kit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf72b558-6ea9-40df-9e80-822091a124b8</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-50v-100nf-x7r-%c2%b110-1206</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-50v-100nf-x7r-%c2%b110-1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="[EXOTIC] AVR Kit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b73eb98-86e1-4bb3-8137-298a109060c7</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-50v-100nf-x7r-%c2%b110-1206</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-50v-100nf-x7r-%c2%b110-1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="[EXOTIC] AVR Kit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37484824-1307-4f43-aed5-0615aa3a0479</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>AVR-ISP-10</value>
+      <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/idc-10-pin-mounting-male-plug-polarized-fc10-pcb</field>
+      </fields>
+      <libsource lib="Connector" part="AVR-ISP-10" description="Atmel 10-pin ISP connector"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/idc-10-pin-mounting-male-plug-polarized-fc10-pcb"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="[EXOTIC] AVR Kit.kicad_sch"/>
+      <property name="ki_description" value="Atmel 10-pin ISP connector"/>
+      <property name="ki_keywords" value="AVR ISP Connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cafdd9e7-8fc7-477a-b3e7-7e61df04d327</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>USB_B</value>
+      <footprint>Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/chip-resistor-smd-330k%cf%89-%c2%b11-250mw-1206</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/chip-resistor-smd-330k%cf%89-%c2%b11-250mw-1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="[EXOTIC] AVR Kit.kicad_sch"/>
+      <property name="ki_description" value="USB Type B connector"/>
+      <property name="ki_keywords" value="connector USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b86084ed-e13f-45fc-bdc2-67071f227947</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10 µH</value>
+      <footprint>Inductor_THT:L_Axial_L7.0mm_D3.3mm_P12.70mm_Horizontal_Fastron_MICC</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/smd-inductors-10uh-%c2%b110-15ma-1-1%cf%89-1206</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/smd-inductors-10uh-%c2%b110-15ma-1-1%cf%89-1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="[EXOTIC] AVR Kit.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbe95672-812e-404c-8667-3e3b5113fad1</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10 kΩ</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b11-250mw-1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b11-250mw-1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="[EXOTIC] AVR Kit.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>722a6f41-2f26-4a74-a834-8ee13dc42e86</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H4.3mm</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/mini-push-button-4-pin-6x6x4-3mm</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/mini-push-button-4-pin-6x6x4-3mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="[EXOTIC] AVR Kit.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01d2e69a-ccef-4344-9fac-59d83528aa48</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATmega32A-P</value>
+      <footprint>Socket:DIP_Socket-40_W11.9_W12.7_W15.24_W17.78_W18.5_3M_240-1280-00-0602J</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf</datasheet>
+      <fields>
+        <field name="Local Seller">https://store.fut-electronics.com/products/atmega32a-8-bit-avr?_pos=1&amp;_sid=2a68e0125&amp;_ss=r</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega32A-P" description="16MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, DIP-40"/>
+      <property name="Local Seller" value="https://store.fut-electronics.com/products/atmega32a-8-bit-avr?_pos=1&amp;_sid=2a68e0125&amp;_ss=r"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="[EXOTIC] AVR Kit.kicad_sch"/>
+      <property name="ki_description" value="16MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, DIP-40"/>
+      <property name="ki_keywords" value="AVR 8bit Microcontroller MegaAVR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03cf96e5-d60c-4f3f-9eb1-69b0ecd61720</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>CH340C</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf</datasheet>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/ch340c-smd-ic-transceiver-usb-2-0-2mbps-sop-16</field>
+      </fields>
+      <libsource lib="Interface_USB" part="CH340C" description="USB serial converter, UART, SOIC-16"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/ch340c-smd-ic-transceiver-usb-2-0-2mbps-sop-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="[EXOTIC] AVR Kit.kicad_sch"/>
+      <property name="ki_description" value="USB serial converter, UART, SOIC-16"/>
+      <property name="ki_keywords" value="USB UART Serial Converter Interface"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23a23652-59f8-4152-bcea-6f70af8c0b9c</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>16 MHz</value>
+      <footprint>Crystal:Crystal_HC49-4H_Vertical</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/smd-crystal-16mhz-49smd</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/smd-crystal-16mhz-49smd"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="[EXOTIC] AVR Kit.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal, small symbol"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24e28e5f-967f-49c3-a4a8-c7fa36f17f2d</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10 µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-10uf-25v-x5r-%c2%b110-1206</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-10uf-25v-x5r-%c2%b110-1206"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>68b014d9-2fa7-4eb7-b205-cfd861f8423d</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10 µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-10uf-25v-x5r-%c2%b110-1206</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-10uf-25v-x5r-%c2%b110-1206"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>59248161-3f45-4544-ac4d-eff53ca5b609</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>22 µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-25v-22uf-%c2%b110-1206</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-25v-22uf-%c2%b110-1206"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>65579e73-e4d2-46c5-b2ec-12b208d3178d</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>22 µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-25v-22uf-%c2%b110-1206</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-25v-22uf-%c2%b110-1206"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>c825070c-a5ff-4bf4-a5ec-b9e18cb3d1de</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-50v-100nf-x7r-%c2%b110-1206</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-50v-100nf-x7r-%c2%b110-1206"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>c9448b86-8057-4179-a6c2-a1e9ae81207b</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-50v-100nf-x7r-%c2%b110-1206</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-50v-100nf-x7r-%c2%b110-1206"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>4a21de23-9941-4486-86d9-5ede3baf1949</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10 µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-10uf-25v-x5r-%c2%b110-1206</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-10uf-25v-x5r-%c2%b110-1206"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>d217b0c3-7955-4942-954f-2be0fb1e9944</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm_Clear</footprint>
+      <fields>
+        <field name="Local Seller">https://microohm-eg.com/product/blue-led-5mm/</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Local Seller" value="https://microohm-eg.com/product/blue-led-5mm/"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>a9211d2a-7eb9-4a56-9422-2d1c749e1824</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuseholder_Clip-5x20mm_Littelfuse_520_Inline_P20.50x5.80mm_D1.30mm_Horizontal</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/fuse-holder-on-pcb-for-t5x20-size-pair</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/fuse-holder-on-pcb-for-t5x20-size-pair"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>43b4b8b0-3bd6-4282-ae86-949513dc1b71</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Barrel_Jack_Switch</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/dc-power-jack-female-socket-connector-5-5x2-1mm</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/dc-power-jack-female-socket-connector-5-5x2-1mm"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>e37c8f42-d83c-4722-8093-0b39d65270d7</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF7309IPBF</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf7309ipbf.pdf</datasheet>
+      <fields>
+        <field name="Local Seller">https://store.fut-electronics.com/products/irf7309-mosfet-30v-3a?_pos=1&amp;_sid=fd1eb6145&amp;_ss=r</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRF7309IPBF" description="3A Id, 30V Vds, Dual HEXFET MOSFET, SO-8"/>
+      <property name="Local Seller" value="https://store.fut-electronics.com/products/irf7309-mosfet-30v-3a?_pos=1&amp;_sid=fd1eb6145&amp;_ss=r"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="3A Id, 30V Vds, Dual HEXFET MOSFET, SO-8"/>
+      <property name="ki_keywords" value="Dual HEXFET N-Channel P-Channel MOSFET"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>b7257bdd-ba98-4c77-a042-3013c686dcae 2671f122-9a99-4c19-be14-543688afe4af</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100 mΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/chip-resistor-smd-330k%cf%89-%c2%b11-250mw-1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/chip-resistor-smd-330k%cf%89-%c2%b11-250mw-1206"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>ce641d94-0458-4072-be78-8029d0a437e4</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10 kΩ</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b11-250mw-1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b11-250mw-1206"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>d53a49f3-f162-449d-8b6a-79a586bef6d0</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330 kΩ</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/chip-resistor-smd-330k%cf%89-%c2%b11-250mw-1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/chip-resistor-smd-330k%cf%89-%c2%b11-250mw-1206"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>65535f96-6f0a-4f3c-b0b6-61556de04109</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>6k8 Ω</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/chip-resistor-smd-6-8k%cf%89-%c2%b11-250mw-1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/chip-resistor-smd-6-8k%cf%89-%c2%b11-250mw-1206"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>ce4644e2-c71a-45d3-8424-4edecc85717f</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10 kΩ</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b11-250mw-1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b11-250mw-1206"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>d736643c-94ac-46e2-9c55-1f731243231c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1 kΩ</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/chip-resistor-smd-1k%cf%89-%c2%b11-0-25w-%c2%b1100ppm-%e2%84%83-1206</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/chip-resistor-smd-1k%cf%89-%c2%b11-0-25w-%c2%b1100ppm-%e2%84%83-1206"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>59236ea2-602b-44d4-8436-577adbff33b2</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>10 kΩ</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/trimmer-potentiometer-multiturn-10k%cf%89-3296w-1-103</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/trimmer-potentiometer-multiturn-10k%cf%89-3296w-1-103"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>d36fec91-f6c2-43bc-a901-6d84d1a9b37f</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>10 kΩ</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/trimmer-potentiometer-multiturn-10k%cf%89-3296w-1-103</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/trimmer-potentiometer-multiturn-10k%cf%89-3296w-1-103"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>d7e3c455-b7b3-4378-9b3e-6a6c9285dff0</tstamps>
+    </comp>
+    <comp ref="RV3">
+      <value>10 kΩ</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/trimmer-potentiometer-multiturn-10k%cf%89-3296w-1-103</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/trimmer-potentiometer-multiturn-10k%cf%89-3296w-1-103"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>05f791b7-6b25-49e2-ad1a-092a5a0bfdd8</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPST</value>
+      <footprint>Button_Switch_THT:SW_Push_2P2T_Toggle_CK_PVA2xxH1xxxxxxV2</footprint>
+      <fields>
+        <field name="Local Seller">https://microohm-eg.com/product/on-off-switch-6-pin-8x8mm/</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Local Seller" value="https://microohm-eg.com/product/on-off-switch-6-pin-8x8mm/"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>4d6e4931-71c4-4cc3-a13c-80e01f088389</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AMS1117-5.0</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/ams1117-5v-smd-fixed-12v-5v-800ma-sot-223-dropout-regulators</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AMS1117-5.0" description="1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/ams1117-5v-smd-fixed-12v-5v-800ma-sot-223-dropout-regulators"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>1fb31c2c-9c4b-4a74-a697-9b08cfe6726d</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>AMS1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="Local Seller">https://microohm-eg.com/product/ams1117-3-3v-low-dropout-voltage-regulator-smd/</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="Local Seller" value="https://microohm-eg.com/product/ams1117-3-3v-low-dropout-voltage-regulator-smd/"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>5f8cba85-6ab0-4c44-aa85-822a6393d264</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>LM358</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2904-n.pdf</datasheet>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/dual-operational-amplifiers-lm358-dr-smd-packageso-8</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LM358" description="Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/dual-operational-amplifiers-lm358-dr-smd-packageso-8"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>ee7f61f0-444e-4976-89c3-03139ab007a5 4e0d3458-8e77-403c-a393-db37639b730d 1a87124a-7b00-476f-ba9b-0d38ca481913</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>LM358</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2904-n.pdf</datasheet>
+      <fields>
+        <field name="Local Seller">https://makerselectronics.com/product/dual-operational-amplifiers-lm358-dr-smd-packageso-8</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LM358" description="Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"/>
+      <property name="Local Seller" value="https://makerselectronics.com/product/dual-operational-amplifiers-lm358-dr-smd-packageso-8"/>
+      <property name="Sheetname" value="Power Management Circuitry"/>
+      <property name="Sheetfile" value="Power Management Circuitry.kicad_sch"/>
+      <property name="ki_description" value="Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <sheetpath names="/Power Management Circuitry/" tstamps="/9da448d2-dd3c-46c7-b716-b331cd5a4621/"/>
+      <tstamps>e166f8b3-2060-43f8-96e1-edf4fe7c329c 93ec5b88-7494-45f4-9c1f-4b280a286e92 874c16f1-bdef-4e0e-a2c9-a25cbe9b0b19</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="LM358">
+      <description>Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2904-n.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM358</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2904-n.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AVR-ISP-10">
+      <description>Atmel 10-pin ISP connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>IDC?Header*2x05*</fp>
+        <fp>Pin?Header*2x05*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AVR-ISP-10</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MOSI" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="~{RST}" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="SCK" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="MISO" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B">
+      <description>USB Type B connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_Small">
+      <description>Two pin crystal, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="CH340C">
+      <description>USB serial converter, UART, SOIC-16</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CH340C</field>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TXD" type="output"/>
+        <pin num="3" name="RXD" type="input"/>
+        <pin num="4" name="V3" type="passive"/>
+        <pin num="5" name="UD+" type="bidirectional"/>
+        <pin num="6" name="UD-" type="bidirectional"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="NC" type="no_connect"/>
+        <pin num="9" name="~{CTS}" type="input"/>
+        <pin num="10" name="~{DSR}" type="input"/>
+        <pin num="11" name="~{RI}" type="input"/>
+        <pin num="12" name="~{DCD}" type="input"/>
+        <pin num="13" name="~{DTR}" type="output"/>
+        <pin num="14" name="~{RTS}" type="output"/>
+        <pin num="15" name="R232" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega32A-P">
+      <description>16MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, DIP-40</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf</docs>
+      <footprints>
+        <fp>DIP*W15.24mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega32A-P</field>
+        <field name="Footprint">Package_DIP:DIP-40_W15.24mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB0" type="bidirectional"/>
+        <pin num="2" name="PB1" type="bidirectional"/>
+        <pin num="3" name="PB2" type="bidirectional"/>
+        <pin num="4" name="PB3" type="bidirectional"/>
+        <pin num="5" name="PB4" type="bidirectional"/>
+        <pin num="6" name="PB5" type="bidirectional"/>
+        <pin num="7" name="PB6" type="bidirectional"/>
+        <pin num="8" name="PB7" type="bidirectional"/>
+        <pin num="9" name="~{RESET}" type="input"/>
+        <pin num="10" name="VCC" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="XTAL2" type="output"/>
+        <pin num="13" name="XTAL1" type="input"/>
+        <pin num="14" name="PD0" type="bidirectional"/>
+        <pin num="15" name="PD1" type="bidirectional"/>
+        <pin num="16" name="PD2" type="bidirectional"/>
+        <pin num="17" name="PD3" type="bidirectional"/>
+        <pin num="18" name="PD4" type="bidirectional"/>
+        <pin num="19" name="PD5" type="bidirectional"/>
+        <pin num="20" name="PD6" type="bidirectional"/>
+        <pin num="21" name="PD7" type="bidirectional"/>
+        <pin num="22" name="PC0" type="bidirectional"/>
+        <pin num="23" name="PC1" type="bidirectional"/>
+        <pin num="24" name="PC2" type="bidirectional"/>
+        <pin num="25" name="PC3" type="bidirectional"/>
+        <pin num="26" name="PC4" type="bidirectional"/>
+        <pin num="27" name="PC5" type="bidirectional"/>
+        <pin num="28" name="PC6" type="bidirectional"/>
+        <pin num="29" name="PC7" type="bidirectional"/>
+        <pin num="30" name="AVCC" type="power_in"/>
+        <pin num="31" name="GND" type="passive"/>
+        <pin num="32" name="AREF" type="passive"/>
+        <pin num="33" name="PA7" type="bidirectional"/>
+        <pin num="34" name="PA6" type="bidirectional"/>
+        <pin num="35" name="PA5" type="bidirectional"/>
+        <pin num="36" name="PA4" type="bidirectional"/>
+        <pin num="37" name="PA3" type="bidirectional"/>
+        <pin num="38" name="PA2" type="bidirectional"/>
+        <pin num="39" name="PA1" type="bidirectional"/>
+        <pin num="40" name="PA0" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-3.3">
+      <description>1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-5.0">
+      <description>1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-5.0</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRF7309IPBF">
+      <description>3A Id, 30V Vds, Dual HEXFET MOSFET, SO-8</description>
+      <docs>http://www.irf.com/product-info/datasheets/data/irf7309ipbf.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF7309IPBF</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.irf.com/product-info/datasheets/data/irf7309ipbf.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="1" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_Microchip_ATmega.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U4" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="VCC" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="3" name="+5V_{OCP}">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U4" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="4" name="+V_{In}">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="5" name="-V_{In}">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="6" name="/MISO">
+      <node ref="J2" pin="9" pinfunction="MISO" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/MOSI">
+      <node ref="J2" pin="1" pinfunction="MOSI" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/PA0">
+      <node ref="U1" pin="40" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/PA1">
+      <node ref="U1" pin="39" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/PA2">
+      <node ref="U1" pin="38" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/PA3">
+      <node ref="U1" pin="37" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/PA4">
+      <node ref="U1" pin="36" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/PA5">
+      <node ref="U1" pin="35" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/PA6">
+      <node ref="U1" pin="34" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/PA7">
+      <node ref="U1" pin="33" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/PB0">
+      <node ref="U1" pin="1" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/PB1">
+      <node ref="U1" pin="2" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/PB2">
+      <node ref="U1" pin="3" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/PB3">
+      <node ref="U1" pin="4" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/PC0">
+      <node ref="U1" pin="22" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/PC1">
+      <node ref="U1" pin="23" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/PC6">
+      <node ref="U1" pin="28" pinfunction="PC6" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/PC7">
+      <node ref="U1" pin="29" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/PD2">
+      <node ref="U1" pin="16" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/PD3">
+      <node ref="U1" pin="17" pinfunction="PD3" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/PD4">
+      <node ref="U1" pin="18" pinfunction="PD4" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/PD5">
+      <node ref="U1" pin="19" pinfunction="PD5" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/PD6">
+      <node ref="U1" pin="20" pinfunction="PD6" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/PD7">
+      <node ref="U1" pin="21" pinfunction="PD7" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/RX &lt;--">
+      <node ref="U1" pin="14" pinfunction="PD0" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="31" name="/SCK">
+      <node ref="J2" pin="7" pinfunction="SCK" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/TCK">
+      <node ref="U1" pin="24" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/TDI">
+      <node ref="U1" pin="27" pinfunction="PC5" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/TDO">
+      <node ref="U1" pin="26" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/TMS">
+      <node ref="U1" pin="25" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/TX --&gt;">
+      <node ref="U1" pin="15" pinfunction="PD1" pintype="bidirectional"/>
+      <node ref="U6" pin="3" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="37" name="/USB_D+">
+      <node ref="J3" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U6" pin="5" pinfunction="UD+" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/USB_D-">
+      <node ref="J3" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U6" pin="6" pinfunction="UD-" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/~{RESET}">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="~{RST}" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="40" name="/~{SS}">
+      <node ref="U1" pin="5" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="GND" pintype="power_out"/>
+      <node ref="Q1" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="31" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="42" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(Q1A-G)">
+      <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="U5" pin="7" pintype="output"/>
+    </net>
+    <net code="44" name="Net-(Q1B-G)">
+      <node ref="Q1" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="U4" pin="7" pintype="output"/>
+    </net>
+    <net code="45" name="Net-(SW2-A)">
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(SW2-B)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(U1-AREF)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="AREF" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(U1-AVCC)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="AVCC" pintype="power_in"/>
+    </net>
+    <net code="49" name="Net-(U1-XTAL1)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="XTAL1" pintype="input"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(U1-XTAL2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="XTAL2" pintype="output"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(U4A-+)">
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(U4A--)">
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(U4B-+)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(U5A-+)">
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U4" pin="1" pintype="output"/>
+      <node ref="U5" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(U5A--)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(U5B-+)">
+      <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="57" name="Net-(U5B--)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U5" pin="1" pintype="output"/>
+      <node ref="U5" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="58" name="Net-(U6-V3)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="V3" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(U6-~{DTR})">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="~{DTR}" pintype="output"/>
+    </net>
+    <net code="60" name="VBUS">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="Q1" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="U6" pin="16" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="61" name="unconnected-(J1-Pad3)">
+      <node ref="J1" pin="3" pintype="passive"/>
+    </net>
+    <net code="62" name="unconnected-(J2-NC-Pad3)">
+      <node ref="J2" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(J3-Shield-Pad5)">
+      <node ref="J3" pin="5" pinfunction="Shield" pintype="passive"/>
+    </net>
+    <net code="64" name="unconnected-(U6-NC-Pad7)">
+      <node ref="U6" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U6-NC-Pad8)">
+      <node ref="U6" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U6-R232-Pad15)">
+      <node ref="U6" pin="15" pinfunction="R232" pintype="input+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U6-~{CTS}-Pad9)">
+      <node ref="U6" pin="9" pinfunction="~{CTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U6-~{DCD}-Pad12)">
+      <node ref="U6" pin="12" pinfunction="~{DCD}" pintype="input+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U6-~{DSR}-Pad10)">
+      <node ref="U6" pin="10" pinfunction="~{DSR}" pintype="input+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U6-~{RI}-Pad11)">
+      <node ref="U6" pin="11" pinfunction="~{RI}" pintype="input+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U6-~{RTS}-Pad14)">
+      <node ref="U6" pin="14" pinfunction="~{RTS}" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

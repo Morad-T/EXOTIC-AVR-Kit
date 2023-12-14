@@ -2982,7 +2982,7 @@
     (property "Value" "USB_B" (at 199.39 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" (at 195.58 104.14 0)
+    (property "Footprint" "M's Library:USB_B_Connector_Horizontal" (at 195.58 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 195.58 104.14 0)

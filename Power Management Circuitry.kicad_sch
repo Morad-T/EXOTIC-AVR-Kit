@@ -2847,7 +2847,7 @@
     (property "Value" "SW_DPDT_x2" (at 73.66 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_THT:SW_Push_2P2T_Toggle_CK_PVA2xxH1xxxxxxV2" (at 73.66 107.95 0)
+    (property "Footprint" "M's Library:SW_Push_DPDT_Toggle_7.0mm" (at 73.66 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 73.66 107.95 0)

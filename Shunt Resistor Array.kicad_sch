@@ -290,7 +290,7 @@
   (symbol (lib_id "Device:R") (at 139.7 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 069c1ef2-1b8e-486b-8bf9-61626cda0c75)
-    (property "Reference" "R11" (at 142.24 93.98 0)
+    (property "Reference" "R12" (at 142.24 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1 Ω" (at 142.24 96.52 0)
@@ -307,7 +307,7 @@
     (instances
       (project "[EXOTIC] AVR Kit"
         (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/80d9bc53-03e3-483f-ad82-a6130fa69734"
-          (reference "R11") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -316,7 +316,7 @@
   (symbol (lib_id "Device:R") (at 177.8 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 156728b3-cba4-4f34-8c86-a11bf774a4b9)
-    (property "Reference" "R14" (at 180.34 93.98 0)
+    (property "Reference" "R15" (at 180.34 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1 Ω" (at 180.34 96.52 0)
@@ -333,7 +333,7 @@
     (instances
       (project "[EXOTIC] AVR Kit"
         (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/80d9bc53-03e3-483f-ad82-a6130fa69734"
-          (reference "R14") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -342,7 +342,7 @@
   (symbol (lib_id "Device:R") (at 114.3 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30d30fd1-6dfc-4ced-a0bc-51fbc5ebff10)
-    (property "Reference" "R9" (at 116.84 93.98 0)
+    (property "Reference" "R10" (at 116.84 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1 Ω" (at 116.84 96.52 0)
@@ -359,7 +359,7 @@
     (instances
       (project "[EXOTIC] AVR Kit"
         (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/80d9bc53-03e3-483f-ad82-a6130fa69734"
-          (reference "R9") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -368,7 +368,7 @@
   (symbol (lib_id "Device:R") (at 203.2 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d5c1e02-58df-4cfc-9f00-0d23339773cc)
-    (property "Reference" "R16" (at 205.74 93.98 0)
+    (property "Reference" "R17" (at 205.74 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1 Ω" (at 205.74 96.52 0)
@@ -385,7 +385,7 @@
     (instances
       (project "[EXOTIC] AVR Kit"
         (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/80d9bc53-03e3-483f-ad82-a6130fa69734"
-          (reference "R16") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -394,7 +394,7 @@
   (symbol (lib_id "Device:R") (at 127 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d74c7ae-b4f5-4248-95d0-f463bcdd8ad5)
-    (property "Reference" "R10" (at 129.54 93.98 0)
+    (property "Reference" "R11" (at 129.54 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1 Ω" (at 129.54 96.52 0)
@@ -411,7 +411,7 @@
     (instances
       (project "[EXOTIC] AVR Kit"
         (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/80d9bc53-03e3-483f-ad82-a6130fa69734"
-          (reference "R10") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -420,7 +420,7 @@
   (symbol (lib_id "Device:R") (at 88.9 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57986336-25ed-4ae6-aaec-2b84945eae15)
-    (property "Reference" "R7" (at 91.44 93.98 0)
+    (property "Reference" "R8" (at 91.44 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1 Ω" (at 91.44 96.52 0)
@@ -437,7 +437,7 @@
     (instances
       (project "[EXOTIC] AVR Kit"
         (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/80d9bc53-03e3-483f-ad82-a6130fa69734"
-          (reference "R7") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -446,7 +446,7 @@
   (symbol (lib_id "Device:R") (at 165.1 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae41a6de-2932-42da-b8f8-1ac22f5beb57)
-    (property "Reference" "R13" (at 167.64 93.98 0)
+    (property "Reference" "R14" (at 167.64 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1 Ω" (at 167.64 96.52 0)
@@ -463,7 +463,7 @@
     (instances
       (project "[EXOTIC] AVR Kit"
         (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/80d9bc53-03e3-483f-ad82-a6130fa69734"
-          (reference "R13") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -472,7 +472,7 @@
   (symbol (lib_id "Device:R") (at 101.6 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba7b6631-1817-4ed7-8eb1-028c9fefe8f0)
-    (property "Reference" "R8" (at 104.14 93.98 0)
+    (property "Reference" "R9" (at 104.14 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1 Ω" (at 104.14 96.52 0)
@@ -489,7 +489,7 @@
     (instances
       (project "[EXOTIC] AVR Kit"
         (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/80d9bc53-03e3-483f-ad82-a6130fa69734"
-          (reference "R8") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -498,7 +498,7 @@
   (symbol (lib_id "Device:R") (at 152.4 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea1994b2-71fa-4fb3-b8be-a82568845470)
-    (property "Reference" "R12" (at 154.94 93.98 0)
+    (property "Reference" "R13" (at 154.94 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1 Ω" (at 154.94 96.52 0)
@@ -515,7 +515,7 @@
     (instances
       (project "[EXOTIC] AVR Kit"
         (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/80d9bc53-03e3-483f-ad82-a6130fa69734"
-          (reference "R12") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -524,7 +524,7 @@
   (symbol (lib_id "Device:R") (at 190.5 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed2007da-87cc-420b-8898-c0461dd2a469)
-    (property "Reference" "R15" (at 193.04 93.98 0)
+    (property "Reference" "R16" (at 193.04 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1 Ω" (at 193.04 96.52 0)
@@ -541,7 +541,7 @@
     (instances
       (project "[EXOTIC] AVR Kit"
         (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/80d9bc53-03e3-483f-ad82-a6130fa69734"
-          (reference "R15") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )

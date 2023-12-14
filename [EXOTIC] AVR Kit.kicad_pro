@@ -471,8 +471,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
-        "via_diameter": 1.2,
-        "via_drill": 0.6,
+        "via_diameter": 1.6,
+        "via_drill": 0.8,
         "wire_width": 6
       },
       {
@@ -566,6 +566,14 @@
     [
       "9da448d2-dd3c-46c7-b716-b331cd5a4621",
       "Power Management Circuitry"
+    ],
+    [
+      "bbc5b563-1e1e-48b3-9d6e-3409d51ecb1f",
+      "Unplaced Units"
+    ],
+    [
+      "80d9bc53-03e3-483f-ad82-a6130fa69734",
+      "Shunt Resistor Array"
     ]
   ],
   "text_variables": {}

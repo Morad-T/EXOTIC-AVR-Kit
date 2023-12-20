@@ -423,7 +423,7 @@
   (no_connect (at 30.48 73.66) (uuid b837e0e5-f6b2-4ecd-85ae-dd077d8aff95))
   (no_connect (at 30.48 99.06) (uuid db7a3ec6-8134-4132-8e03-0414989e4eb3))
 
-  (symbol (lib_id "Comparator:LM339") (at 38.1 101.6 0) (unit 2)
+  (symbol (lib_id "Comparator:LM339") (at 38.1 101.6 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 213b8c82-8d6d-40e0-bdcd-f3f3c37b18ce)
     (property "Reference" "U5" (at 38.1 91.44 0)
@@ -458,7 +458,7 @@
     (instances
       (project "[EXOTIC] AVR Kit"
         (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/bbc5b563-1e1e-48b3-9d6e-3409d51ecb1f"
-          (reference "U5") (unit 2)
+          (reference "U5") (unit 3)
         )
       )
     )
@@ -538,7 +538,7 @@
           (reference "U5") (unit 1)
         )
         (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/bbc5b563-1e1e-48b3-9d6e-3409d51ecb1f"
-          (reference "U5") (unit 3)
+          (reference "U5") (unit 4)
         )
       )
     )
@@ -588,7 +588,7 @@
     )
   )
 
-  (symbol (lib_id "Comparator:LM339") (at 38.1 76.2 0) (unit 1)
+  (symbol (lib_id "Comparator:LM339") (at 38.1 76.2 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e325edc0-b6a9-45c6-8276-3a58307502c9)
     (property "Reference" "U5" (at 38.1 66.04 0)
@@ -623,7 +623,7 @@
     (instances
       (project "[EXOTIC] AVR Kit"
         (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/bbc5b563-1e1e-48b3-9d6e-3409d51ecb1f"
-          (reference "U5") (unit 1)
+          (reference "U5") (unit 2)
         )
       )
     )

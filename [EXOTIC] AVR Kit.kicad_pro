@@ -75,7 +75,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "starved_thermal|139635000|107950000|3deeb5c7-b4c5-4bf3-943e-f1d1f6a78653|80f80e2d-d4c7-4059-a87d-04aa2002fb2b|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -483,7 +485,7 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.4,
+        "diff_pair_width": 0.5,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,

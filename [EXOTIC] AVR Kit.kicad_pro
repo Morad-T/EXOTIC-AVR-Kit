@@ -54,9 +54,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.6,
-          "width": 1.6
+          "drill": 0.0,
+          "height": 1.75,
+          "width": 1.3
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -75,9 +75,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "starved_thermal|139635000|107950000|3deeb5c7-b4c5-4bf3-943e-f1d1f6a78653|80f80e2d-d4c7-4059-a87d-04aa2002fb2b|F.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

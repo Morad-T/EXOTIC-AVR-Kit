@@ -11415,6 +11415,12 @@
   (gr_text "TX" (at 151.13 81.915 90) (layer "F.SilkS" knockout) (tstamp fced5ab6-0369-409b-a172-bbc6ac7e9f5b)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (gr_text "MT" (at 157.48 72.39) (layer "B.Mask") (tstamp 6e3e4b5d-f220-4433-8d2e-29cbfe41e40a)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "MT" (at 120.65 124.46) (layer "F.Mask") (tstamp 513eaea4-6dbe-4df2-88b8-312a467dfb09)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
 
   (via (at 138.43 111.76) (size 1.2) (drill 0.6) (layers "F.Cu" "B.Cu") (free) (net 1) (tstamp 06b2ae59-e189-4d10-9db0-5fd7325c3861))
   (via (at 157.48 74.93) (size 1.2) (drill 0.6) (layers "F.Cu" "B.Cu") (free) (net 1) (tstamp 2b7e060d-96bc-43ef-a6b2-95c70846fdb9))

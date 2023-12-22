@@ -19,6 +19,8 @@ AVR Dev. Kit based on the ATMEGA32A
 
 ## Roadmap
 
+- ESD Protection
+
 - ICSP Headers
 
 - EMC Simulation

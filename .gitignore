@@ -5,3 +5,4 @@ _autosave*
 \#auto_saved_files\#
 board2pdf.config.ini
 archive_3d_models.log
+out.log

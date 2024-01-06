@@ -550,8 +550,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "[EXOTIC] AVR Kit.step",
+      "vrml": "[EXOTIC] AVR Kit.wrl"
     },
     "page_layout_descr_file": ""
   },

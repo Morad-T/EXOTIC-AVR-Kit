@@ -76,6 +76,7 @@
         }
       ],
       "drc_exclusions": [
+        "lib_footprint_issues|209999999|110999999|cce1016d-00a6-42fe-b4a3-fab6fb0bc733|00000000-0000-0000-0000-000000000000",
         "starved_thermal|126935000|76200000|3deeb5c7-b4c5-4bf3-943e-f1d1f6a78653|80f80e2d-d4c7-4059-a87d-04aa2002fb2b|F.Cu"
       ],
       "meta": {

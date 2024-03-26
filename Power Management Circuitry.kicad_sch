@@ -2138,6 +2138,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3903,7 +3985,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 88.9) (xy 247.65 91.44)
+			(xy 224.79 88.9) (xy 224.79 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4103,7 +4185,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 88.9) (xy 234.95 91.44)
+			(xy 212.09 88.9) (xy 212.09 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4153,7 +4235,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 91.44) (xy 245.11 91.44)
+			(xy 224.79 91.44) (xy 222.25 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4183,7 +4265,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 91.44) (xy 237.49 91.44)
+			(xy 212.09 91.44) (xy 214.63 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4513,7 +4595,7 @@
 	)
 	(rectangle
 		(start 203.2 76.2)
-		(end 284.48 101.6)
+		(end 233.68 101.6)
 		(stroke
 			(width 0)
 			(type default)
@@ -4596,6 +4678,18 @@
 		(uuid a069f01b-9845-4965-b3c5-7a80f16317e7)
 	)
 	(rectangle
+		(start 233.68 76.2)
+		(end 284.48 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e1574577-9e6f-4de3-82f8-9992f3543dd2)
+	)
+	(rectangle
 		(start 127 76.2)
 		(end 165.1 101.6)
 		(stroke
@@ -4619,10 +4713,10 @@
 		)
 		(uuid f3a8ecdd-0271-4d93-bbf9-3631396003ca)
 	)
-	(text_box "Power Chain:\n+V_{In} >>> +5V_{OCP} >>> +5V >>> Load >>> GND >>> -V_{In}"
+	(text_box "Power Chain:\n+V_{In} >>> +5V >>> +5V_{PPTC} >>> +5V_{NetTie} Load >>> GND"
 		(exclude_from_sim no)
 		(at 12.7 140.97 0)
-		(size 76.2 10.16)
+		(size 62.23 10.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -4636,7 +4730,18 @@
 			)
 			(justify left top)
 		)
-		(uuid "338f9e61-66e3-465b-b212-79340501ce58")
+		(uuid "c6b3638e-f432-44b7-b0d1-98c2ac5ec006")
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 236.22 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0aaa207e-576e-4ea6-a3dc-804290ddeb08")
 	)
 	(text "DC-In Power LED Indicator"
 		(exclude_from_sim no)
@@ -4728,7 +4833,7 @@
 	)
 	(global_label "+5V_{NetTie}"
 		(shape output)
-		(at 247.65 88.9 90)
+		(at 224.79 88.9 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4738,7 +4843,7 @@
 		)
 		(uuid "05f22d8e-2b5f-4823-95bd-d1a58d472f5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.65 77.3488 90)
+			(at 224.79 77.3488 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +4943,7 @@
 	)
 	(global_label "+5V_{PPTC}"
 		(shape input)
-		(at 234.95 88.9 90)
+		(at 212.09 88.9 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4848,7 +4953,7 @@
 		)
 		(uuid "a29ca0c6-f088-4dad-8728-eed613c0fc65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.95 78.1714 90)
+			(at 212.09 78.1714 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,6 +6415,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 254 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "61255437-9a48-4fa8-9bb8-8b7d884299aa")
+		(property "Reference" "H2"
+			(at 256.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 256.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "[EXOTIC] AVR Kit"
+				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 64.77 85.09 0)
 		(mirror y)
@@ -6844,6 +7012,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 254 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "74e1cdd0-4cca-4312-9a7a-bd05ebd56f44")
+		(property "Reference" "H3"
+			(at 256.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 256.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 254 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "[EXOTIC] AVR Kit"
+				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 266.7 45.72 0)
 		(unit 1)
@@ -7205,7 +7436,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 241.3 91.44 90)
+		(at 218.44 91.44 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7214,7 +7445,7 @@
 		(dnp no)
 		(uuid "9046e55a-2830-4dc9-b237-678574f65efb")
 		(property "Reference" "R6"
-			(at 241.3 95.25 90)
+			(at 218.44 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7222,7 +7453,7 @@
 			)
 		)
 		(property "Value" "0 Ω"
-			(at 241.3 97.79 90)
+			(at 218.44 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,7 +7461,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 241.3 89.662 90)
+			(at 218.44 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +7470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 91.44 0)
+			(at 218.44 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,7 +7479,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.3 91.44 0)
+			(at 218.44 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +7488,7 @@
 			)
 		)
 		(property "Local Seller" "https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b11-250mw-1206"
-			(at 241.3 91.44 0)
+			(at 218.44 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7598,6 +7829,69 @@
 			(project "[EXOTIC] AVR Kit"
 				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 254 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b65fa8ed-6c7f-4add-8fd9-037ec46a3844")
+		(property "Reference" "H1"
+			(at 256.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 256.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "[EXOTIC] AVR Kit"
+				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8203,7 +8497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e39aa281-4358-4f4e-a8f7-262581c0685f")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 36.83 109.22 0)
 			(effects
 				(font
@@ -8273,7 +8567,70 @@
 		(instances
 			(project "[EXOTIC] AVR Kit"
 				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621"
-					(reference "J11")
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 254 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3de5776-c498-4701-87a8-03fec6217ab3")
+		(property "Reference" "H4"
+			(at 256.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 256.54 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "[EXOTIC] AVR Kit"
+				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621"
+					(reference "H4")
 					(unit 1)
 				)
 			)

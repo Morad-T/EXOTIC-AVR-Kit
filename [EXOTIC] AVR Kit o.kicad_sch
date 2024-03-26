@@ -3938,6 +3938,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -4500,7 +4582,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 124.46) (xy 194.31 124.46)
+			(xy 171.45 124.46) (xy 176.53 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4540,7 +4622,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 123.19) (xy 219.71 123.19)
+			(xy 196.85 123.19) (xy 201.93 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4550,7 +4632,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 114.3) (xy 168.91 114.3)
+			(xy 146.05 114.3) (xy 151.13 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4670,7 +4752,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 111.76) (xy 194.31 111.76)
+			(xy 171.45 111.76) (xy 176.53 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4680,7 +4762,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 113.03) (xy 254 113.03)
+			(xy 226.06 113.03) (xy 236.22 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4690,7 +4772,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 120.65) (xy 219.71 120.65)
+			(xy 196.85 120.65) (xy 201.93 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4760,7 +4842,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 113.03) (xy 219.71 113.03)
+			(xy 196.85 113.03) (xy 201.93 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4780,7 +4862,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 127) (xy 168.91 127)
+			(xy 146.05 127) (xy 151.13 127)
 		)
 		(stroke
 			(width 0)
@@ -4820,7 +4902,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 129.54) (xy 168.91 129.54)
+			(xy 146.05 129.54) (xy 151.13 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4830,7 +4912,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 121.92) (xy 168.91 121.92)
+			(xy 146.05 121.92) (xy 151.13 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4840,7 +4922,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 128.27) (xy 219.71 128.27)
+			(xy 196.85 128.27) (xy 201.93 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4860,7 +4942,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 123.19) (xy 254 123.19)
+			(xy 226.06 123.19) (xy 236.22 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4890,7 +4972,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 130.81) (xy 219.71 130.81)
+			(xy 196.85 130.81) (xy 201.93 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4930,7 +5012,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 119.38) (xy 168.91 119.38)
+			(xy 146.05 119.38) (xy 151.13 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5080,7 +5162,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 119.38) (xy 194.31 119.38)
+			(xy 171.45 119.38) (xy 176.53 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5170,7 +5252,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 116.84) (xy 168.91 116.84)
+			(xy 146.05 116.84) (xy 151.13 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5210,7 +5292,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 114.3) (xy 194.31 114.3)
+			(xy 171.45 114.3) (xy 176.53 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5280,7 +5362,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 121.92) (xy 194.31 121.92)
+			(xy 171.45 121.92) (xy 176.53 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5290,7 +5372,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 125.73) (xy 254 125.73)
+			(xy 226.06 125.73) (xy 236.22 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5320,7 +5402,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 110.49) (xy 214.63 110.49)
+			(xy 201.93 110.49) (xy 196.85 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5330,7 +5412,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 115.57) (xy 254 115.57)
+			(xy 226.06 115.57) (xy 236.22 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5350,7 +5432,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 115.57) (xy 219.71 115.57)
+			(xy 196.85 115.57) (xy 201.93 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5370,7 +5452,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 124.46) (xy 168.91 124.46)
+			(xy 146.05 124.46) (xy 151.13 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5390,7 +5472,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 129.54) (xy 194.31 129.54)
+			(xy 171.45 129.54) (xy 176.53 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5450,7 +5532,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 127) (xy 194.31 127)
+			(xy 171.45 127) (xy 176.53 127)
 		)
 		(stroke
 			(width 0)
@@ -5470,7 +5552,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 128.27) (xy 254 128.27)
+			(xy 226.06 128.27) (xy 236.22 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5480,7 +5562,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 111.76) (xy 168.91 111.76)
+			(xy 146.05 111.76) (xy 151.13 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5500,7 +5582,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 125.73) (xy 219.71 125.73)
+			(xy 196.85 125.73) (xy 201.93 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5530,7 +5612,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 118.11) (xy 219.71 118.11)
+			(xy 196.85 118.11) (xy 201.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5540,7 +5622,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 116.84) (xy 194.31 116.84)
+			(xy 171.45 116.84) (xy 176.53 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5570,7 +5652,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 118.11) (xy 254 118.11)
+			(xy 226.06 118.11) (xy 236.22 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5700,7 +5782,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 120.65) (xy 254 120.65)
+			(xy 226.06 120.65) (xy 236.22 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5759,6 +5841,18 @@
 		(uuid "fecc1150-41cd-4ba3-9c6f-2a4ed1857f9c")
 	)
 	(rectangle
+		(start 254 88.9)
+		(end 284.48 156.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2ac83815-e59c-4065-aaa6-01fa0e866509)
+	)
+	(rectangle
 		(start 203.2 12.7)
 		(end 284.48 88.9)
 		(stroke
@@ -5784,7 +5878,7 @@
 	)
 	(rectangle
 		(start 139.7 88.9)
-		(end 284.48 156.21)
+		(end 254 156.21)
 		(stroke
 			(width 0)
 			(type default)
@@ -5828,15 +5922,16 @@
 		)
 		(uuid "6800e2de-7b05-4dc1-ba6c-d1db042f3452")
 	)
-	(text "Add QFN Package to the footprint"
+	(text "Mounting Holes"
 		(exclude_from_sim no)
-		(at 38.1 88.9 0)
+		(at 256.54 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(uuid "a36d0ecf-da30-4de9-85b7-ac0d09aef4c0")
+		(uuid "8f976780-5598-42e1-ba4d-b71cc0dde158")
 	)
 	(text "ISP Interface"
 		(exclude_from_sim no)
@@ -5848,16 +5943,6 @@
 			(justify left bottom)
 		)
 		(uuid "b4c2c2e4-ea57-4078-8dbe-f3c4dfcfbd22")
-	)
-	(text "Consider Ceramic Resonators"
-		(exclude_from_sim no)
-		(at 38.1 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d248f45a-6958-439e-a4d0-9bb02754e768")
 	)
 	(text "Rx and TX labels and direction arrows are from the prespective of the 32A\n~Check USB Shield Coonnection (Should it tie to ground?)~"
 		(exclude_from_sim no)
@@ -5893,7 +5978,7 @@
 		(uuid "022f675f-1e39-4969-ac4b-d987b13b0e2a")
 	)
 	(label "PA1"
-		(at 163.83 114.3 0)
+		(at 146.05 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5937,7 +6022,7 @@
 		(uuid "107aebe0-23b0-4e18-ba67-3adc07f3bfae")
 	)
 	(label "SCL"
-		(at 214.63 113.03 0)
+		(at 196.85 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5981,7 +6066,7 @@
 		(uuid "1fd9a98b-8eb8-4811-ab1b-86d18ee74cd0")
 	)
 	(label "PD5"
-		(at 243.84 125.73 0)
+		(at 226.06 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5992,7 +6077,7 @@
 		(uuid "2e761a18-c73f-4df2-a385-2f80bae4e083")
 	)
 	(label "TX -->"
-		(at 243.84 115.57 0)
+		(at 226.06 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6025,7 +6110,7 @@
 		(uuid "31820817-7f73-4300-b1d6-453f1a59c30e")
 	)
 	(label "TCK"
-		(at 214.63 118.11 0)
+		(at 196.85 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6036,7 +6121,7 @@
 		(uuid "32b80bff-dbfc-438c-8298-bad17ebd694e")
 	)
 	(label "TMS"
-		(at 214.63 120.65 0)
+		(at 196.85 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6047,7 +6132,7 @@
 		(uuid "36c67631-9e56-4647-94ee-635efc4b9c9e")
 	)
 	(label "SCK"
-		(at 189.23 129.54 0)
+		(at 171.45 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6069,7 +6154,7 @@
 		(uuid "3f064695-056a-4feb-994c-2eec5a02734d")
 	)
 	(label "PA2"
-		(at 163.83 116.84 0)
+		(at 146.05 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6091,7 +6176,7 @@
 		(uuid "4ce51cb8-938b-4266-a26c-e58a1781b41d")
 	)
 	(label "PA5"
-		(at 163.83 124.46 0)
+		(at 146.05 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6102,7 +6187,7 @@
 		(uuid "4d9eed8a-5179-48d5-ad06-589fd0b78aa2")
 	)
 	(label "MISO"
-		(at 189.23 127 0)
+		(at 171.45 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6113,7 +6198,7 @@
 		(uuid "55070321-f453-45b8-94a3-7dc5517d8d2f")
 	)
 	(label "PD7"
-		(at 214.63 110.49 0)
+		(at 196.85 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6124,7 +6209,7 @@
 		(uuid "556d9e19-3db4-42cb-883a-3fa509ad397e")
 	)
 	(label "PC6"
-		(at 214.63 128.27 0)
+		(at 196.85 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6146,7 +6231,7 @@
 		(uuid "59de7c1c-5ee5-4748-8ef8-34c148e67e8a")
 	)
 	(label "TDI"
-		(at 214.63 125.73 0)
+		(at 196.85 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6168,7 +6253,7 @@
 		(uuid "63c9d734-c84a-4e12-8fa4-d2b6caabe5f6")
 	)
 	(label "PB1"
-		(at 189.23 114.3 0)
+		(at 171.45 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6212,7 +6297,7 @@
 		(uuid "6e6df9b8-a3fa-407a-b33f-eca161d8534b")
 	)
 	(label "SDA"
-		(at 214.63 115.57 0)
+		(at 196.85 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6223,7 +6308,7 @@
 		(uuid "70f96a82-c098-4871-9109-59e275a9a486")
 	)
 	(label "PB3"
-		(at 189.23 119.38 0)
+		(at 171.45 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6234,7 +6319,7 @@
 		(uuid "7273c3a7-4098-4f07-85d4-e8908c3bc025")
 	)
 	(label "PA7"
-		(at 163.83 129.54 0)
+		(at 146.05 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6278,7 +6363,7 @@
 		(uuid "7c03a829-3208-4171-9905-aea9599551aa")
 	)
 	(label "PD6"
-		(at 243.84 128.27 0)
+		(at 226.06 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6300,7 +6385,7 @@
 		(uuid "7d207a13-675e-49d3-9de5-79caa48e7ed0")
 	)
 	(label "PA4"
-		(at 163.83 121.92 0)
+		(at 146.05 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6355,7 +6440,7 @@
 		(uuid "8b982e98-cbb1-4a55-8ba0-426dfc30d9a3")
 	)
 	(label "PB0"
-		(at 189.23 111.76 0)
+		(at 171.45 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6399,7 +6484,7 @@
 		(uuid "a7eb00a0-21e6-44e3-9b25-9e9b79111883")
 	)
 	(label "RX <--"
-		(at 243.84 113.03 0)
+		(at 226.06 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6410,7 +6495,7 @@
 		(uuid "a80b8dc9-e6b1-4847-87d8-fef3f7e7e325")
 	)
 	(label "PC7"
-		(at 214.63 130.81 0)
+		(at 196.85 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6432,7 +6517,7 @@
 		(uuid "b3e74e21-12c3-4403-8e8f-1f727fa44a49")
 	)
 	(label "TDO"
-		(at 214.63 123.19 0)
+		(at 196.85 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6443,7 +6528,7 @@
 		(uuid "b4cb39ea-c6cf-4b8b-b117-e6c0170239be")
 	)
 	(label "PB2"
-		(at 189.23 116.84 0)
+		(at 171.45 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6465,7 +6550,7 @@
 		(uuid "be0eae33-3fb1-43ec-a781-19dd732eff36")
 	)
 	(label "PA3"
-		(at 163.83 119.38 0)
+		(at 146.05 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6476,7 +6561,7 @@
 		(uuid "c0df60c6-43e4-40c6-ac64-17e688adfe21")
 	)
 	(label "PD2"
-		(at 243.84 118.11 0)
+		(at 226.06 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6487,7 +6572,7 @@
 		(uuid "c1bf136c-3e22-455a-94b6-774cdeb733b7")
 	)
 	(label "PD3"
-		(at 243.84 120.65 0)
+		(at 226.06 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6531,7 +6616,7 @@
 		(uuid "c33da251-0002-4263-bd94-7f19ca7db3e6")
 	)
 	(label "PD4"
-		(at 243.84 123.19 0)
+		(at 226.06 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6608,7 +6693,7 @@
 		(uuid "e3e8fde7-a86d-45cf-86e8-9cb4b1edc29e")
 	)
 	(label "PA6"
-		(at 163.83 127 0)
+		(at 146.05 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6652,7 +6737,7 @@
 		(uuid "f30f1fc9-e90a-4e15-a8bb-956a0e3d6c00")
 	)
 	(label "PA0"
-		(at 163.83 111.76 0)
+		(at 146.05 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6663,7 +6748,7 @@
 		(uuid "fd237352-a1d3-424d-b5e9-57c7cb48b743")
 	)
 	(label "MOSI"
-		(at 189.23 124.46 0)
+		(at 171.45 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6674,7 +6759,7 @@
 		(uuid "fd2cf244-2f03-487e-b66c-fd19a2edd839")
 	)
 	(label "~{SS}"
-		(at 189.23 121.92 0)
+		(at 171.45 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7962,7 +8047,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
-		(at 173.99 119.38 0)
+		(at 156.21 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7971,7 +8056,7 @@
 		(fields_autoplaced yes)
 		(uuid "439401bf-d2f4-4120-9675-6dc89e0a5126")
 		(property "Reference" "J4"
-			(at 175.26 119.38 0)
+			(at 157.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7980,7 +8065,7 @@
 			)
 		)
 		(property "Value" "Port A"
-			(at 175.26 121.92 0)
+			(at 157.48 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7989,7 +8074,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 173.99 119.38 0)
+			(at 156.21 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7998,7 +8083,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 119.38 0)
+			(at 156.21 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8007,7 +8092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 119.38 0)
+			(at 156.21 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8016,7 +8101,7 @@
 			)
 		)
 		(property "Local Seller" "https://makerselectronics.com/product/pin-headers-female-2-54mm-40-pin-straight-black-11mm"
-			(at 173.99 119.38 0)
+			(at 156.21 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,6 +8137,69 @@
 			(project "[EXOTIC] AVR Kit"
 				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 262.89 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c67f7f7-9b0b-49a2-9ef3-af813c3ca34e")
+		(property "Reference" "H4"
+			(at 265.43 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 265.43 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 262.89 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "[EXOTIC] AVR Kit"
+				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -8145,7 +8293,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Socket")
-		(at 224.79 120.65 0)
+		(at 207.01 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8154,7 +8302,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e615a0c-eca8-4ca4-8095-44fc84b763bf")
 		(property "Reference" "J6"
-			(at 226.06 119.38 0)
+			(at 208.28 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8163,7 +8311,7 @@
 			)
 		)
 		(property "Value" "Port C + D7"
-			(at 226.06 121.92 0)
+			(at 208.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,7 +8320,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical"
-			(at 224.79 120.65 0)
+			(at 207.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8181,7 +8329,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 120.65 0)
+			(at 207.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8190,7 +8338,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 120.65 0)
+			(at 207.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8199,7 +8347,7 @@
 			)
 		)
 		(property "Local Seller" "https://makerselectronics.com/product/pin-headers-female-2-54mm-40-pin-straight-black-11mm"
-			(at 224.79 120.65 0)
+			(at 207.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,7 +8393,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x07_Socket")
-		(at 259.08 120.65 0)
+		(at 241.3 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8254,7 +8402,7 @@
 		(fields_autoplaced yes)
 		(uuid "602523aa-c5b6-4709-a2d3-f04944161171")
 		(property "Reference" "J7"
-			(at 260.35 119.38 0)
+			(at 242.57 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8263,7 +8411,7 @@
 			)
 		)
 		(property "Value" "Port D"
-			(at 260.35 121.92 0)
+			(at 242.57 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8272,7 +8420,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
-			(at 259.08 120.65 0)
+			(at 241.3 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,7 +8429,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 120.65 0)
+			(at 241.3 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8438,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 120.65 0)
+			(at 241.3 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +8447,7 @@
 			)
 		)
 		(property "Local Seller" "https://makerselectronics.com/product/pin-headers-female-2-54mm-40-pin-straight-black-11mm"
-			(at 259.08 120.65 0)
+			(at 241.3 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8332,6 +8480,132 @@
 			(project "[EXOTIC] AVR Kit"
 				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 262.89 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6203dac0-4ec3-4329-a211-ca4e6c62facf")
+		(property "Reference" "H2"
+			(at 265.43 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 265.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 262.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "[EXOTIC] AVR Kit"
+				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 262.89 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a498188-044f-421c-925f-c1fd999f87b3")
+		(property "Reference" "H1"
+			(at 265.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 265.43 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "[EXOTIC] AVR Kit"
+				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8650,6 +8924,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 262.89 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "76eb834c-97b2-400a-9ece-67445bb169ce")
+		(property "Reference" "H3"
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 265.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "[EXOTIC] AVR Kit"
+				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 76.2 0)
 		(unit 1)
@@ -8724,7 +9061,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
-		(at 199.39 119.38 0)
+		(at 181.61 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8733,7 +9070,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cc2f579-7388-4348-804c-279ca94cc11b")
 		(property "Reference" "J5"
-			(at 200.66 119.38 0)
+			(at 182.88 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8742,7 +9079,7 @@
 			)
 		)
 		(property "Value" "Port B"
-			(at 200.66 121.92 0)
+			(at 182.88 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8751,7 +9088,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 199.39 119.38 0)
+			(at 181.61 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,7 +9097,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 119.38 0)
+			(at 181.61 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,7 +9106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 119.38 0)
+			(at 181.61 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +9115,7 @@
 			)
 		)
 		(property "Local Seller" "https://makerselectronics.com/product/pin-headers-female-2-54mm-40-pin-straight-black-11mm"
-			(at 199.39 119.38 0)
+			(at 181.61 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

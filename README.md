@@ -11,7 +11,6 @@ AVR Dev. Kit based on the ATMEGA32A
 - Can accomodate ZIF or normal 40-Pin sockets
 - Over Current Protection
 - CH340C USB to UART Interface
-- Power Rail Selector
 - Direct 10-Pin ISP Interface
 
 ## Yet To Done

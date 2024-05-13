@@ -14,7 +14,7 @@ AVR Dev. Kit based on the ATMEGA32A
 - Power Rail Selector
 - Direct 10-Pin ISP Interface
 
-## Yet To Done
+## Yet To Be Done
 
 - ICSP Header
 - EMC Simulations

@@ -16,12 +16,5 @@ AVR Dev. Kit based on the ATMEGA32A
 
 ## Yet To Done
 
-- Decoupling Capacitors
-
-- ESD Protection
-
-- ICSP Headers
-
-- EMC Simulation
-
-- Add more integrations
+- ICSP Header
+- EMC Simulations

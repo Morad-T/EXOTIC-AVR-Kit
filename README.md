@@ -3,7 +3,7 @@
 
 AVR Dev. Kit based on the ATMEGA32A
 
-![Logo](https://raw.githubusercontent.com/Morad-T/EXOTIC-AVR-Kit/main/%5BEXOTIC%5D%20AVR%20Kit_3D_RT.png)
+![Logo](https://github.com/Morad-T/EXOTIC-AVR-Kit/blob/main/%5BEXOTIC%5DAVRKit.png)
 
 ## Features
 

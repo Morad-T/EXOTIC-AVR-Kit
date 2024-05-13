@@ -1,406 +1,1289 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid f0125fed-33ea-46f6-b69f-056afa3761c0)
-
-  (paper "A4")
-
-  (title_block
-    (title "ATMEGA32A AVR Kit")
-    (date "2023-12-08")
-    (rev "C1")
-    (company "Team Exotic")
-    (comment 1 "Author: Morad Tamer")
-  )
-
-  (lib_symbols
-    (symbol "Amplifier_Operational:LM324" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "LM324" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at -1.27 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" (at 1.27 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "quad opamp" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LM324_1_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "LM324_2_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "LM324_3_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "LM324_4_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "LM324_5_1"
-        (pin power_in line (at -2.54 -7.62 90) (length 3.81)
-          (name "V-" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 7.62 270) (length 3.81)
-          (name "V+" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Switch:SW_DPDT_x2" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (at 0 4.318 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "SW_DPDT_x2" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Switch, dual pole double throw, separate symbols" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SW*DPDT*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SW_DPDT_x2_0_0"
-        (circle (center -2.032 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.032 -2.54) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "SW_DPDT_x2_0_1"
-        (polyline
-          (pts
-            (xy -1.524 0.254)
-            (xy 1.651 2.286)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.032 2.54) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "SW_DPDT_x2_1_1"
-        (pin passive line (at 5.08 2.54 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 2.54)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 2.54)
-          (name "C" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "SW_DPDT_x2_2_1"
-        (pin passive line (at 5.08 2.54 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 2.54)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 2.54)
-          (name "C" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (no_connect (at 30.48 59.69) (uuid 052a22cd-d56a-4716-837d-feb1b0a4d308))
-  (no_connect (at 77.47 57.15) (uuid 28dcae23-ce96-4761-8d44-668965fb6286))
-  (no_connect (at 67.31 54.61) (uuid 3bd451c9-7771-4cf7-b0f9-276132025134))
-  (no_connect (at 45.72 74.93) (uuid 3d59b0a7-94a3-4d8b-aecc-eae6e24ca0b5))
-  (no_connect (at 30.48 35.56) (uuid 5003b825-c768-43ce-8cdc-cf1c9e7d8cd5))
-  (no_connect (at 67.31 59.69) (uuid 617c8f94-58f1-4c56-bcd5-a4d0152f815f))
-  (no_connect (at 45.72 38.1) (uuid 7705b972-f46f-4eb9-b852-58696fd7c428))
-  (no_connect (at 30.48 40.64) (uuid 79c39d8d-afb8-4682-8366-c87d4d7434b0))
-  (no_connect (at 30.48 72.39) (uuid 9694adcd-b14e-4cb4-8dc7-1781cd422f1c))
-  (no_connect (at 30.48 54.61) (uuid e6b496d4-8863-482d-b557-81e8c8e73c94))
-  (no_connect (at 30.48 77.47) (uuid e70d9245-dcd5-4e91-8ca1-885d2b59a5de))
-  (no_connect (at 45.72 57.15) (uuid f385fe5f-0eb1-4616-a8bc-fcae28f1d09d))
-
-  (symbol (lib_id "Switch:SW_DPDT_x2") (at 72.39 57.15 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7432fb82-d185-42cf-baba-78862478390e)
-    (property "Reference" "SW2" (at 72.39 49.53 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_DPDT_x2" (at 72.39 52.07 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "M's Library:SW_Push_DPDT_Toggle_7.0mm" (at 72.39 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 72.39 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Local Seller" "https://makerselectronics.com/product/push-button-6-pins-self-lock-8x8mm" (at 72.39 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8d27f9de-b3c3-4cf4-ac37-8604f43217e3))
-    (pin "2" (uuid 0e82d13e-7cb2-4826-a3a3-e67eb21bcf44))
-    (pin "3" (uuid 2731ef74-e90c-4188-8d8a-ebeaa4782306))
-    (pin "4" (uuid 16fc03d8-4b67-4f80-b79b-2b72eef69d3c))
-    (pin "5" (uuid afca842f-9976-4874-9911-592d9157a9cf))
-    (pin "6" (uuid cf882221-53d6-4523-aedd-96376f5ad7cd))
-    (instances
-      (project "[EXOTIC] AVR Kit"
-        (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621"
-          (reference "SW2") (unit 1)
-        )
-        (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/bbc5b563-1e1e-48b3-9d6e-3409d51ecb1f"
-          (reference "SW2") (unit 2)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM324") (at 38.1 38.1 0) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d388fff9-02ff-4da8-934c-1facb1aad79a)
-    (property "Reference" "U4" (at 38.1 27.94 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM324" (at 38.1 30.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm" (at 36.83 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" (at 39.37 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Local Seller" "https://makerselectronics.com/product/lm324-sop-14-operational-amplifier-smd" (at 38.1 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f0d05c54-69c8-443e-988a-20a99dfaf8fb))
-    (pin "2" (uuid 78192780-48f1-4dea-a08c-42ae9544c51a))
-    (pin "3" (uuid 1a9fd51a-5146-4d92-bde4-7171310296ed))
-    (pin "5" (uuid e267adac-4e84-4f3c-a750-273e6f80c86b))
-    (pin "6" (uuid 23fde3ec-462c-45f5-99b7-041fdd07dc9a))
-    (pin "7" (uuid c8121a60-5d9d-4e4c-8483-f4c5b91b83e9))
-    (pin "10" (uuid 8f76d91c-53c4-431f-b798-12bcfeab053e))
-    (pin "8" (uuid d67c9bd5-dad9-4262-9061-1473f881c71d))
-    (pin "9" (uuid 531afcd7-609b-46e9-86f7-c5457b45de7f))
-    (pin "12" (uuid ac8af682-3aef-4a23-bd27-1aade6131356))
-    (pin "13" (uuid dff6d9e7-2a9b-413d-9dfd-e9469f580ce6))
-    (pin "14" (uuid 6d042a8d-5e64-4b7b-95d7-a0080e20dfe1))
-    (pin "11" (uuid e578de8b-41b3-4ad7-963c-daf252c8a3d7))
-    (pin "4" (uuid c345c85d-8989-46d0-9c7b-1e3c1e945b32))
-    (instances
-      (project "[EXOTIC] AVR Kit"
-        (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621"
-          (reference "U4") (unit 3)
-        )
-        (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/bbc5b563-1e1e-48b3-9d6e-3409d51ecb1f"
-          (reference "U4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM324") (at 38.1 57.15 0) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d6f35945-fd7e-4001-a165-f6ac60d6b9b4)
-    (property "Reference" "U4" (at 38.1 46.99 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM324" (at 38.1 49.53 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm" (at 36.83 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" (at 39.37 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Local Seller" "https://makerselectronics.com/product/lm324-sop-14-operational-amplifier-smd" (at 38.1 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f0d05c54-69c8-443e-988a-20a99dfaf8fb))
-    (pin "2" (uuid 78192780-48f1-4dea-a08c-42ae9544c51a))
-    (pin "3" (uuid 1a9fd51a-5146-4d92-bde4-7171310296ed))
-    (pin "5" (uuid e267adac-4e84-4f3c-a750-273e6f80c86b))
-    (pin "6" (uuid 23fde3ec-462c-45f5-99b7-041fdd07dc9a))
-    (pin "7" (uuid c8121a60-5d9d-4e4c-8483-f4c5b91b83e9))
-    (pin "10" (uuid 727fd6ad-619a-4000-bc38-6d3cb7d08f0e))
-    (pin "8" (uuid 1479a3a8-1a44-442d-9c38-da846b1b2020))
-    (pin "9" (uuid 74727254-7aa5-405a-a9b3-fbd5bb2d0956))
-    (pin "12" (uuid ac8af682-3aef-4a23-bd27-1aade6131356))
-    (pin "13" (uuid dff6d9e7-2a9b-413d-9dfd-e9469f580ce6))
-    (pin "14" (uuid 6d042a8d-5e64-4b7b-95d7-a0080e20dfe1))
-    (pin "11" (uuid e578de8b-41b3-4ad7-963c-daf252c8a3d7))
-    (pin "4" (uuid c345c85d-8989-46d0-9c7b-1e3c1e945b32))
-    (instances
-      (project "[EXOTIC] AVR Kit"
-        (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621"
-          (reference "U4") (unit 3)
-        )
-        (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/bbc5b563-1e1e-48b3-9d6e-3409d51ecb1f"
-          (reference "U4") (unit 2)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Amplifier_Operational:LM324") (at 38.1 74.93 0) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid dcfe7c9b-9b6b-4396-bc82-6f5b64f3d117)
-    (property "Reference" "U4" (at 38.1 64.77 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM324" (at 38.1 67.31 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm" (at 36.83 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" (at 39.37 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Local Seller" "https://makerselectronics.com/product/lm324-sop-14-operational-amplifier-smd" (at 38.1 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f0d05c54-69c8-443e-988a-20a99dfaf8fb))
-    (pin "2" (uuid 78192780-48f1-4dea-a08c-42ae9544c51a))
-    (pin "3" (uuid 1a9fd51a-5146-4d92-bde4-7171310296ed))
-    (pin "5" (uuid e267adac-4e84-4f3c-a750-273e6f80c86b))
-    (pin "6" (uuid 23fde3ec-462c-45f5-99b7-041fdd07dc9a))
-    (pin "7" (uuid c8121a60-5d9d-4e4c-8483-f4c5b91b83e9))
-    (pin "10" (uuid 882658fb-29c7-45f8-93df-bb9d582b7151))
-    (pin "8" (uuid 9fde19b6-5472-4966-9785-cbad3c8ed3c9))
-    (pin "9" (uuid e33f51c0-3184-4e52-8c44-d032cf8000c5))
-    (pin "12" (uuid ac8af682-3aef-4a23-bd27-1aade6131356))
-    (pin "13" (uuid dff6d9e7-2a9b-413d-9dfd-e9469f580ce6))
-    (pin "14" (uuid 6d042a8d-5e64-4b7b-95d7-a0080e20dfe1))
-    (pin "11" (uuid e578de8b-41b3-4ad7-963c-daf252c8a3d7))
-    (pin "4" (uuid c345c85d-8989-46d0-9c7b-1e3c1e945b32))
-    (instances
-      (project "[EXOTIC] AVR Kit"
-        (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621"
-          (reference "U4") (unit 3)
-        )
-        (path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/bbc5b563-1e1e-48b3-9d6e-3409d51ecb1f"
-          (reference "U4") (unit 4)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f0125fed-33ea-46f6-b69f-056afa3761c0")
+	(paper "A4")
+	(title_block
+		(title "ATMEGA32A AVR Kit")
+		(date "2023-12-08")
+		(rev "C1")
+		(company "Team Exotic")
+		(comment 1 "Author: Morad Tamer")
+	)
+	(lib_symbols
+		(symbol "Comparator:LM339"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM339"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cmp open collector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM339_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339_5_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_DPDT_x2"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DPDT_x2"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, dual pole double throw, separate symbols"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*DPDT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_2_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 52.07 76.2)
+		(uuid "050da98e-f3eb-4a23-a31b-ea5a22b7ec5c")
+	)
+	(no_connect
+		(at 52.07 35.56)
+		(uuid "09e261a9-c79e-451c-8ee0-19e5130ec9fe")
+	)
+	(no_connect
+		(at 52.07 57.15)
+		(uuid "15d5536f-1f92-43fe-93bc-1c2337aa6082")
+	)
+	(no_connect
+		(at 72.39 33.02)
+		(uuid "17d31ead-e67e-4b39-9aa3-62e3a0d63ae8")
+	)
+	(no_connect
+		(at 38.1 34.29)
+		(uuid "28dcae23-ce96-4761-8d44-668965fb6286")
+	)
+	(no_connect
+		(at 22.86 31.75)
+		(uuid "3bd451c9-7771-4cf7-b0f9-276132025134")
+	)
+	(no_connect
+		(at 22.86 36.83)
+		(uuid "617c8f94-58f1-4c56-bcd5-a4d0152f815f")
+	)
+	(no_connect
+		(at 52.07 52.07)
+		(uuid "6f47c9da-0efb-4bb7-9736-a3df3c7fedaf")
+	)
+	(no_connect
+		(at 72.39 73.66)
+		(uuid "756d038d-f6af-4f36-9e55-5e93e5209966")
+	)
+	(no_connect
+		(at 52.07 30.48)
+		(uuid "99dd434e-7063-4811-a669-91da91e0d2f8")
+	)
+	(no_connect
+		(at 72.39 54.61)
+		(uuid "eccb86c7-ee8f-46c4-99c4-12340d6d53df")
+	)
+	(no_connect
+		(at 52.07 71.12)
+		(uuid "f6750617-7b2c-4f22-a0a7-b75156b07f86")
+	)
+	(wire
+		(pts
+			(xy 52.07 30.48) (xy 54.61 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b0a266-6ffa-4c79-8daa-090e04120c20")
+	)
+	(wire
+		(pts
+			(xy 52.07 35.56) (xy 54.61 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d646c6-ef58-4c08-b9c1-9969ec3363f9")
+	)
+	(wire
+		(pts
+			(xy 52.07 71.12) (xy 54.61 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a61898-4601-47f0-8498-5cec77dfe7ae")
+	)
+	(wire
+		(pts
+			(xy 52.07 52.07) (xy 54.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27802ba7-7b3a-4881-93ce-03c56be51b53")
+	)
+	(wire
+		(pts
+			(xy 22.86 31.75) (xy 25.4 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8574a6-3a1d-4d01-9952-0f7ef3569ac5")
+	)
+	(wire
+		(pts
+			(xy 38.1 34.29) (xy 35.56 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f66ff2d-16d7-4a63-b380-cf05feb8c1f1")
+	)
+	(wire
+		(pts
+			(xy 72.39 33.02) (xy 69.85 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aaa15d8-800e-40bf-99dc-7b0942d31ed7")
+	)
+	(wire
+		(pts
+			(xy 72.39 73.66) (xy 69.85 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f3b2cf-90a1-4650-9dc9-8ca2c30da8af")
+	)
+	(wire
+		(pts
+			(xy 52.07 76.2) (xy 54.61 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eff9675-e582-4b95-8fc2-b4a95db904fe")
+	)
+	(wire
+		(pts
+			(xy 72.39 54.61) (xy 69.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09ef07a-7eee-4fbc-aa5d-00ce50a39fdc")
+	)
+	(wire
+		(pts
+			(xy 22.86 36.83) (xy 25.4 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52919ec-1426-432f-b38b-26c61db472e9")
+	)
+	(wire
+		(pts
+			(xy 52.07 57.15) (xy 54.61 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69b042a-47ff-425a-9d9b-7f3d2251e35e")
+	)
+	(text "http://store.logicneed.com/product/20510"
+		(exclude_from_sim no)
+		(at 142.748 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "424d648a-3c0f-437e-8b09-036d3809d925")
+	)
+	(text "~Two Seperate Op-Amps needed due to difference in power source requirements\n(Rail selector won't work if the op amp is powered from the +12V)~ DONE"
+		(exclude_from_sim no)
+		(at 143.002 69.342 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "596eb317-862b-4c6e-935e-34ca1e99633b")
+	)
+	(text "To Do:\n\n~Priority Switch to select which 5V source is the dominant~ DONE"
+		(exclude_from_sim no)
+		(at 143.002 64.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5deb5cf8-a8b5-42ce-ac89-19a934d1163b")
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 62.23 73.66 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17b6870b-743e-486b-9914-c703045ce861")
+		(property "Reference" "U4"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 62.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 60.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "41df6ba9-9dfb-4ba6-a58f-2240e5bb4d04")
+		)
+		(pin "1"
+			(uuid "4f6751b1-1310-48a6-b217-b091ce73605e")
+		)
+		(pin "7"
+			(uuid "fce38ab5-37bf-47aa-840d-d763e91574e8")
+		)
+		(pin "14"
+			(uuid "e163f741-8878-4b5c-b4fa-6fc4528ddd2f")
+		)
+		(pin "2"
+			(uuid "280d55d0-b460-4ebe-b6c2-449d073ed7d0")
+		)
+		(pin "13"
+			(uuid "92e7491b-0df7-4807-9620-26feb832d5ad")
+		)
+		(pin "4"
+			(uuid "2d6f783a-cf40-42e4-bf8e-e02113b854e4")
+		)
+		(pin "8"
+			(uuid "79ba8d2d-76c0-4059-b235-dcefd5dddd40")
+		)
+		(pin "11"
+			(uuid "ab04db23-ef03-4aa9-81f6-1caf5415e66b")
+		)
+		(pin "6"
+			(uuid "fe30fd05-75e2-431e-b1c0-969e4857b4b3")
+		)
+		(pin "10"
+			(uuid "7877e5a8-fa5a-4dc0-bb5b-f4b7ef5991d4")
+		)
+		(pin "5"
+			(uuid "a4e26abd-1999-437d-8c9d-08f512837f40")
+		)
+		(pin "12"
+			(uuid "38f7f4e0-4c1a-40fe-ac10-503cfceef150")
+		)
+		(pin "3"
+			(uuid "e67c465f-95ba-4b09-81b8-d38e422bf08b")
+		)
+		(instances
+			(project "[EXOTIC] AVR Kit"
+				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/bbc5b563-1e1e-48b3-9d6e-3409d51ecb1f"
+					(reference "U4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 30.48 34.29 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7432fb82-d185-42cf-baba-78862478390e")
+		(property "Reference" "SW2"
+			(at 30.48 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 30.48 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "M's Library:SW_Push_DPDT_Toggle_7.0mm"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Local Seller" "https://makerselectronics.com/product/push-button-6-pins-self-lock-8x8mm"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d27f9de-b3c3-4cf4-ac37-8604f43217e3")
+		)
+		(pin "2"
+			(uuid "0e82d13e-7cb2-4826-a3a3-e67eb21bcf44")
+		)
+		(pin "3"
+			(uuid "2731ef74-e90c-4188-8d8a-ebeaa4782306")
+		)
+		(pin "4"
+			(uuid "16fc03d8-4b67-4f80-b79b-2b72eef69d3c")
+		)
+		(pin "5"
+			(uuid "afca842f-9976-4874-9911-592d9157a9cf")
+		)
+		(pin "6"
+			(uuid "cf882221-53d6-4523-aedd-96376f5ad7cd")
+		)
+		(instances
+			(project "[EXOTIC] AVR Kit"
+				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/bbc5b563-1e1e-48b3-9d6e-3409d51ecb1f"
+					(reference "SW2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 62.23 33.02 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "844d457e-d7b4-4c97-b7d5-641e772fee29")
+		(property "Reference" "U4"
+			(at 62.23 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 63.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "56228dd4-b941-45b7-b382-b13e5dd00768")
+		)
+		(pin "1"
+			(uuid "66c2fad0-3429-4228-b723-1cb8e56750f5")
+		)
+		(pin "7"
+			(uuid "9b8fd1e9-dd6e-444c-91cb-b97b9af82940")
+		)
+		(pin "14"
+			(uuid "1ce6b52a-0a9d-477a-90b0-03f4bdf86b43")
+		)
+		(pin "2"
+			(uuid "280d55d0-b460-4ebe-b6c2-449d073ed7d2")
+		)
+		(pin "13"
+			(uuid "92e7491b-0df7-4807-9620-26feb832d5af")
+		)
+		(pin "4"
+			(uuid "2d6f783a-cf40-42e4-bf8e-e02113b854e6")
+		)
+		(pin "8"
+			(uuid "3c710e12-1c75-402e-ac06-dcd09c6fafb3")
+		)
+		(pin "11"
+			(uuid "ab04db23-ef03-4aa9-81f6-1caf5415e66d")
+		)
+		(pin "6"
+			(uuid "23ddfd89-3e4e-41cd-8e10-f744429eb0a7")
+		)
+		(pin "10"
+			(uuid "7877e5a8-fa5a-4dc0-bb5b-f4b7ef5991d6")
+		)
+		(pin "5"
+			(uuid "a4e26abd-1999-437d-8c9d-08f512837f42")
+		)
+		(pin "12"
+			(uuid "38f7f4e0-4c1a-40fe-ac10-503cfceef152")
+		)
+		(pin "3"
+			(uuid "e67c465f-95ba-4b09-81b8-d38e422bf08d")
+		)
+		(instances
+			(project "[EXOTIC] AVR Kit"
+				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/bbc5b563-1e1e-48b3-9d6e-3409d51ecb1f"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 62.23 54.61 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9db0b509-f236-48d3-a85d-27562a9456c2")
+		(property "Reference" "U4"
+			(at 62.23 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 60.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 63.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "56228dd4-b941-45b7-b382-b13e5dd00767")
+		)
+		(pin "1"
+			(uuid "a54ea4aa-db7d-4113-bb36-cf2afde5d18b")
+		)
+		(pin "7"
+			(uuid "e155646b-1a74-4654-b3c9-714ad4c2b0cb")
+		)
+		(pin "14"
+			(uuid "1ce6b52a-0a9d-477a-90b0-03f4bdf86b42")
+		)
+		(pin "2"
+			(uuid "280d55d0-b460-4ebe-b6c2-449d073ed7d1")
+		)
+		(pin "13"
+			(uuid "fe89188f-4fe4-4bd2-a1ed-a9514d319ba2")
+		)
+		(pin "4"
+			(uuid "2d6f783a-cf40-42e4-bf8e-e02113b854e5")
+		)
+		(pin "8"
+			(uuid "3c710e12-1c75-402e-ac06-dcd09c6fafb2")
+		)
+		(pin "11"
+			(uuid "e5ff93dc-747d-4e83-9513-2a86a592c60d")
+		)
+		(pin "6"
+			(uuid "c28eecc1-31a5-4c85-b271-09edfeacccbe")
+		)
+		(pin "10"
+			(uuid "0b05aed4-f56d-47e6-a5eb-f66e7e93382d")
+		)
+		(pin "5"
+			(uuid "a4e26abd-1999-437d-8c9d-08f512837f41")
+		)
+		(pin "12"
+			(uuid "38f7f4e0-4c1a-40fe-ac10-503cfceef151")
+		)
+		(pin "3"
+			(uuid "e67c465f-95ba-4b09-81b8-d38e422bf08c")
+		)
+		(instances
+			(project "[EXOTIC] AVR Kit"
+				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212/9da448d2-dd3c-46c7-b716-b331cd5a4621/bbc5b563-1e1e-48b3-9d6e-3409d51ecb1f"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
 )

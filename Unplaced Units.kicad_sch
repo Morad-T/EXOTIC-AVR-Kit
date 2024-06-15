@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ATMEGA32A AVR Kit")
-		(date "2023-12-08")
-		(rev "C1")
+		(date "2024-06-14")
+		(rev "C2.7")
 		(company "Team Exotic")
 		(comment 1 "Author: Morad Tamer")
 	)
@@ -459,8 +459,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 4.318 0)
+			(property "Reference" "SW2"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -468,14 +468,14 @@
 				)
 			)
 			(property "Value" "SW_DPDT_x2"
-				(at 0 -5.08 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "M's Library:SW_Push_DPDT_Toggle_7.0mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -494,6 +494,15 @@
 				)
 			)
 			(property "Description" "Switch, dual pole double throw, separate symbols"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Local Seller" "https://makerselectronics.com/product/push-button-6-pins-self-lock-8x8mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -545,9 +554,20 @@
 				)
 			)
 			(symbol "SW_DPDT_x2_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.651 2.286)
+						(xy -1.524 0.254) (xy 1.5748 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1033,7 +1053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch, dual pole double throw, separate symbols"
 			(at 30.48 34.29 0)
 			(effects
 				(font

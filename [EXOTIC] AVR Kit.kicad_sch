@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "ATMEGA32A AVR Kit")
-		(date "2023-10-28")
-		(rev "C1.2")
-		(company "Exotic Racing Team")
+		(date "2024-06-14")
+		(rev "C2.7")
+		(company "Team Exotic")
 		(comment 1 "Author: Morad Tamer")
 	)
 	(lib_symbols
@@ -3162,6 +3162,186 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_Microchip_ATmega:ATmega32A-P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4431,10 +4611,16 @@
 		(uuid "2d043217-6e25-4829-b50c-b28a79fb4558")
 	)
 	(junction
-		(at 255.27 67.31)
+		(at 248.92 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cd42ea9-0d7f-4369-a673-88918877a180")
+	)
+	(junction
+		(at 269.24 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bb55b23-33b9-4ab8-bceb-76ffd5e8f779")
 	)
 	(junction
 		(at 48.26 60.96)
@@ -4473,7 +4659,7 @@
 		(uuid "70dbfb8d-90ae-4d6d-94a1-d8669cb4246d")
 	)
 	(junction
-		(at 255.27 74.93)
+		(at 248.92 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4f9aa0a-0c4b-4f77-9817-a147c17af3c2")
@@ -4493,10 +4679,6 @@
 	(no_connect
 		(at 250.19 50.8)
 		(uuid "0010fd18-0c95-4658-81dc-60f43ee4fac2")
-	)
-	(no_connect
-		(at 271.78 50.8)
-		(uuid "3e32cbaf-4628-4496-81a0-afb3a3529077")
 	)
 	(no_connect
 		(at 224.79 45.72)
@@ -4534,7 +4716,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 67.31) (xy 247.65 68.58)
+			(xy 241.3 68.58) (xy 241.3 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4624,7 +4806,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 73.66) (xy 261.62 74.93)
+			(xy 255.27 74.93) (xy 255.27 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4654,7 +4836,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 74.93) (xy 255.27 74.93)
+			(xy 241.3 76.2) (xy 248.92 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4671,6 +4853,16 @@
 			(type default)
 		)
 		(uuid "1128613d-1623-461c-b9bc-e41ecf434ddc")
+	)
+	(wire
+		(pts
+			(xy 271.78 50.8) (xy 271.78 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14556053-60cf-4df2-984c-ea474fb20d8b")
 	)
 	(wire
 		(pts
@@ -4804,7 +4996,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 63.5) (xy 255.27 67.31)
+			(xy 248.92 64.77) (xy 248.92 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4834,7 +5026,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 74.93) (xy 255.27 77.47)
+			(xy 248.92 76.2) (xy 248.92 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5114,7 +5306,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 74.93) (xy 261.62 74.93)
+			(xy 248.92 76.2) (xy 255.27 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5144,7 +5336,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 50.8) (xy 269.24 53.34)
+			(xy 269.24 50.8) (xy 269.24 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5214,7 +5406,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 67.31) (xy 261.62 67.31)
+			(xy 248.92 68.58) (xy 255.27 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5271,6 +5463,16 @@
 			(type default)
 		)
 		(uuid "8661de70-77b6-4ca3-b05e-6d6995dfc65c")
+	)
+	(wire
+		(pts
+			(xy 271.78 60.96) (xy 271.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867a0d54-c049-4705-b1d0-72e2a48b37e8")
 	)
 	(wire
 		(pts
@@ -5424,7 +5626,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 67.31) (xy 261.62 68.58)
+			(xy 255.27 68.58) (xy 255.27 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5511,6 +5713,16 @@
 			(type default)
 		)
 		(uuid "b43b95de-db4c-44d1-8168-1a418c7ee4eb")
+	)
+	(wire
+		(pts
+			(xy 269.24 63.5) (xy 271.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4811e23-e1e5-4aa6-9d21-e9ea5687190e")
 	)
 	(wire
 		(pts
@@ -5634,6 +5846,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 63.5) (xy 269.24 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca047439-9e64-493d-8148-80a5e1553ee7")
+	)
+	(wire
+		(pts
 			(xy 50.8 66.04) (xy 50.8 68.58)
 		)
 		(stroke
@@ -5724,7 +5946,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 67.31) (xy 255.27 67.31)
+			(xy 241.3 68.58) (xy 248.92 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5804,7 +6026,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 73.66) (xy 247.65 74.93)
+			(xy 241.3 74.93) (xy 241.3 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7751,7 +7973,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 77.47 0)
+		(at 248.92 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7760,7 +7982,7 @@
 		(fields_autoplaced yes)
 		(uuid "254e6205-76c9-4ec2-973b-9b21a01da4bb")
 		(property "Reference" "#PWR023"
-			(at 255.27 83.82 0)
+			(at 248.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,7 +7991,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 82.55 0)
+			(at 248.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,7 +7999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 77.47 0)
+			(at 248.92 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +8008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 77.47 0)
+			(at 248.92 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7795,7 +8017,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.27 77.47 0)
+			(at 248.92 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8963,7 +9185,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 53.34 0)
+		(at 269.24 66.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8973,7 +9195,7 @@
 		(fields_autoplaced yes)
 		(uuid "9254feac-fa8c-4d98-bb7a-fe2e27450563")
 		(property "Reference" "#PWR020"
-			(at 269.24 59.69 0)
+			(at 269.24 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8982,7 +9204,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 58.42 0)
+			(at 269.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8990,7 +9212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 53.34 0)
+			(at 269.24 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8999,7 +9221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 53.34 0)
+			(at 269.24 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,7 +9230,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 53.34 0)
+			(at 269.24 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9311,7 +9533,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 261.62 71.12 180)
+		(at 255.27 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9320,7 +9542,7 @@
 		(fields_autoplaced yes)
 		(uuid "af8dbac5-0c81-4cf9-a356-101f646c9540")
 		(property "Reference" "C12"
-			(at 264.16 69.8435 0)
+			(at 257.81 71.1135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9329,7 +9551,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 264.16 72.3835 0)
+			(at 257.81 73.6535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9338,7 +9560,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 261.62 71.12 0)
+			(at 255.27 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9347,7 +9569,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 71.12 0)
+			(at 255.27 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9356,7 +9578,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 261.62 71.12 0)
+			(at 255.27 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9365,7 +9587,7 @@
 			)
 		)
 		(property "Local Seller" "https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-50v-100nf-x7r-%c2%b110-1206"
-			(at 261.62 71.12 0)
+			(at 255.27 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,13 +9960,13 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 86.36 30.48 90)
+		(at 86.36 30.48 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cbe95672-812e-404c-8667-3e3b5113fad1")
 		(property "Reference" "L1"
 			(at 86.36 25.4 90)
@@ -9821,7 +10043,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 255.27 63.5 0)
+		(at 248.92 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9830,7 +10052,7 @@
 		(fields_autoplaced yes)
 		(uuid "d088025b-26eb-4cd6-99b5-be7b0a476535")
 		(property "Reference" "#PWR017"
-			(at 255.27 67.31 0)
+			(at 248.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9839,7 +10061,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 255.27 58.42 0)
+			(at 248.92 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9847,7 +10069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 63.5 0)
+			(at 248.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9856,7 +10078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 63.5 0)
+			(at 248.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9865,7 +10087,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.27 63.5 0)
+			(at 248.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9886,17 +10108,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 247.65 71.12 0)
-		(mirror y)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 271.78 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f0ccff95-ee37-414d-9ecc-c35c61e2a614")
-		(property "Reference" "C11"
-			(at 250.19 69.85 0)
+		(fields_autoplaced yes)
+		(uuid "d7130620-2ca1-4bee-bb98-bba08f62f66d")
+		(property "Reference" "JP2"
+			(at 274.32 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9904,8 +10126,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 µF"
-			(at 250.19 72.39 0)
+		(property "Value" "SHLD"
+			(at 274.32 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9913,8 +10135,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 247.65 71.12 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 271.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9923,7 +10145,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 71.12 0)
+			(at 271.78 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bd7e539-ca98-48ee-9b9f-0e6fb1cc0ec3")
+		)
+		(pin "2"
+			(uuid "bd348537-dc17-430f-a763-4b541f567053")
+		)
+		(instances
+			(project "[EXOTIC] AVR Kit"
+				(path "/bd689b4b-40d7-46ba-91b6-965ce30f8212"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 241.3 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0ccff95-ee37-414d-9ecc-c35c61e2a614")
+		(property "Reference" "C11"
+			(at 243.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 243.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 241.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9932,7 +10224,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 247.65 71.12 0)
+			(at 241.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9941,7 +10233,7 @@
 			)
 		)
 		(property "Local Seller" "https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-10uf-25v-x5r-%c2%b110-1206"
-			(at 247.65 71.12 0)
+			(at 241.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)

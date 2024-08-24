@@ -13,3 +13,5 @@ swap_stubs.log
 /AVR_Kit_RevL4.4
 \[EXOTIC\] AVR Kit L4.4.kicad_pro
 \[EXOTIC\] AVR Kit L4.4.kicad_pcb
+/\[EXOTIC\] AVR Kit L4.4-backups
+*.kicad_prl
